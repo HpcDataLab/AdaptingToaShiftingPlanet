@@ -53,12 +53,12 @@ To use the scripts in this repository, ensure you have Python and R installed on
 
 ## Citation
 
-If you use the data or scripts from this repository in your research, please cite our paper: [Full Citation of the Paper]
+If you use the data or scripts from this repository in your research, please cite our paper: 
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [license](LICENSE.md) file for details.
 
 ## Contact
 
-For any queries related to this repository, please reach out to [Ulises Olivares](mailto:uolivares@unam.mx).
+For any queries related to this repository, please reach out to [Ulises Olivares-Pinto](mailto:uolivares@unam.mx).
