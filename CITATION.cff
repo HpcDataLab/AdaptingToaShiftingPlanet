@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper and the archived Zenodo dataset DOI."
+title: "Data and code for: Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives"
+type: dataset
+authors:
+  - family-names: Olivares-Pinto
+    given-names: Ulises
+  - family-names: Santiago Lopes
+    given-names: Julio Cesar
+  - family-names: Ruiz-Aguilar
+    given-names: Criseida
+  - family-names: Oki
+    given-names: Yumi
+  - family-names: Fernandes
+    given-names: Geraldo Wilson
+year: 2025
+doi: 10.5281/zenodo.20631938
+url: "https://doi.org/10.5281/zenodo.20631938"
+repository-code: "https://github.com/HpcDataLab/AdaptingToaShiftingPlanet"
+abstract: >-
+  Standardized occurrence data, metadata, and species-level KUENM/MaxEnt
+  workflow files supporting the paper "Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives".
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20631938"
+    description: "Zenodo dataset DOI"
+  - type: doi
+    value: "10.1016/j.ancene.2025.100466"
+    description: "Associated article DOI"
+preferred-citation:
+  type: article
+  title: "Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives"
+  authors:
+    - family-names: Olivares-Pinto
+      given-names: Ulises
+    - family-names: Santiago Lopes
+      given-names: Julio Cesar
+    - family-names: Ruiz-Aguilar
+      given-names: Criseida
+    - family-names: Oki
+      given-names: Yumi
+    - family-names: Fernandes
+      given-names: Geraldo Wilson
+  journal: Anthropocene
+  volume: 49
+  year: 2025
+  doi: 10.1016/j.ancene.2025.100466
