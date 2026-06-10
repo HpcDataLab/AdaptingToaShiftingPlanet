@@ -55,9 +55,6 @@ M_variables/                   # selected environmental variable sets, e.g. Set_
 
 The original uploaded split files (`drosera_joint.csv`, `drosera_train.csv`, `drosera_test.csv`) were preserved under `precomputed/`. They are not used by default because the generic script regenerates paper-aligned 75% calibration / 25% testing splits from `occurrences_clean.csv`.
 
-## Important data note
-
-The updated archive contains **39 species folders**, matching the species count described in the associated paper. The previously missing species ID `20` is now included as `20_viridis`. The file `docs/missing_species.csv` is retained for traceability and currently contains no missing species entries.
 
 ## Methodological alignment
 
@@ -145,22 +142,14 @@ Zenodo DOI: 10.5281/zenodo.20631938
 Zenodo record: https://doi.org/10.5281/zenodo.20631938
 ```
 
-The source code, metadata, validation notes, and reproducible KUENM/MaxEnt scripts are maintained in the GitHub repository:
+The source code, metadata, validation notes, and reproducible KUENM/MaxEnt scripts are maintained in this GitHub repository:
 
 ```text
 Repository: https://github.com/HpcDataLab/AdaptingToaShiftingPlanet
 ```
-
-A copy-paste-ready Zenodo description is available in `docs/zenodo_description_for_upload.txt`, and a Markdown version is available in `docs/zenodo_data_description.md`.
 
 ## Citation
 
 If you use this repository or dataset, cite the associated paper and the archived Zenodo dataset DOI.
 
 Olivares-Pinto, U., Santiago Lopes, J. C., Ruiz-Aguilar, C., Oki, Y., & Fernandes, G. W. (2025). *Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives*. Anthropocene, 49, 100466. https://doi.org/10.1016/j.ancene.2025.100466
-
-## Data update notes
-
-This version was regenerated from `species(2).zip`. The update adds the previously missing `20_viridis` species folder and retains the paper-aligned standardized structure for all **39** *Drosera* species. Canonical filenames were standardized while preserving non-canonical extra CSVs under `additional_csv/`.
-
-Canonical clean occurrence selection follows this priority when multiple candidates exist: `final` > `newN` > `new` > `_joint`. See `docs/renaming_log.csv` and `data/species_metadata.csv` for exact mappings and row counts.
