@@ -1,11 +1,15 @@
-# Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives
+# Adapting to a shifting planet: The future of *Drosera* species amidst global challenges and conservation imperatives
 
 **Associated paper:** *Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives*  
-**Journal:** Anthropocene, 49, 100466  
+**Journal:** *Anthropocene*, 49, 100466  
 **Article DOI:** https://doi.org/10.1016/j.ancene.2025.100466  
 **Dataset DOI:** https://doi.org/10.5281/zenodo.20631938  
 
-This repository contains the data, metadata, and source code associated with the paper *Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives*. The study evaluates current and future habitat suitability for 39 South American *Drosera* species using species distribution models, bioclimatic predictors, MaxEnt, and the KUENM workflow. The paper describes projections for 2050 and 2070 under SSP5–8.5 using HadGEM2-AO and MRI-CGCM3 general circulation models.
+This repository contains the data, metadata, and source code associated with the paper *Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives*.
+
+The study evaluates current and future habitat suitability for 39 South American *Drosera* species using species distribution models, bioclimatic predictors, MaxEnt, and the KUENM workflow.
+
+The paper describes projections for 2050 and 2070 under SSP5–8.5 using HadGEM2-AO and MRI-CGCM3 general circulation models.
 
 ## Paper
 
@@ -13,8 +17,9 @@ Olivares-Pinto, U., Santiago Lopes, J. C., Ruiz-Aguilar, C., Oki, Y., & Fernande
 
 ## Repository scope
 
-This repository is organized for reproducibility of the species-level ecological niche modeling workflow. It includes standardized occurrence CSV files, metadata, and generic scripts that avoid hardcoded local paths or species-specific filenames.
+This repository is organized for reproducibility of the species-level ecological niche modeling workflow.
 
+It includes standardized occurrence CSV files, metadata, and generic scripts that avoid hardcoded local paths or species-specific filenames.
 
 ## Directory structure
 
@@ -53,8 +58,9 @@ precomputed/occurrences_*.csv  # uploaded split files preserved for traceability
 M_variables/                   # selected environmental variable sets, e.g. Set_1/
 ```
 
-The original uploaded split files (`drosera_joint.csv`, `drosera_train.csv`, `drosera_test.csv`) were preserved under `precomputed/`. They are not used by default because the generic script regenerates paper-aligned 75% calibration / 25% testing splits from `occurrences_clean.csv`.
+The original uploaded split files (`drosera_joint.csv`, `drosera_train.csv`, `drosera_test.csv`) were preserved under `precomputed/`.
 
+They are not used by default because the generic script regenerates paper-aligned 75% calibration / 25% testing splits from `occurrences_clean.csv`.
 
 ## Methodological alignment
 
@@ -152,4 +158,4 @@ Repository: https://github.com/HpcDataLab/AdaptingToaShiftingPlanet
 
 If you use this repository or dataset, cite the associated paper and the archived Zenodo dataset DOI.
 
-Olivares-Pinto, U., Santiago Lopes, J. C., Ruiz-Aguilar, C., Oki, Y., & Fernandes, G. W. (2025). *Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives*. Anthropocene, 49, 100466. https://doi.org/10.1016/j.ancene.2025.100466
+Olivares-Pinto, U., Santiago Lopes, J. C., Ruiz-Aguilar, C., Oki, Y., & Fernandes, G. W. (2025). *Adapting to a shifting planet: The future of Drosera species amidst global challenges and conservation imperatives*. *Anthropocene, 49*, 100466. https://doi.org/10.1016/j.ancene.2025.100466
